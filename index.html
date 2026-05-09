@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>ADCOS Dermocosméticos — Skincare Premium</title>
+<title>Skelt — Beauty & Glow Essentials</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
@@ -22,7 +22,7 @@ html{
 
 body{
     font-family:'Inter',sans-serif;
-    background:#060606;
+    background:#050505;
     color:#fff;
     overflow-x:hidden;
 }
@@ -32,7 +32,7 @@ body::before{
     position:fixed;
     width:700px;
     height:700px;
-    background:radial-gradient(circle,#d4af3718 0%,transparent 70%);
+    background:radial-gradient(circle,#ff8cc218 0%,transparent 70%);
     top:-250px;
     right:-180px;
     z-index:-1;
@@ -43,7 +43,7 @@ body::after{
     position:fixed;
     width:700px;
     height:700px;
-    background:radial-gradient(circle,#ffffff10 0%,transparent 70%);
+    background:radial-gradient(circle,#ffd8ec10 0%,transparent 70%);
     bottom:-300px;
     left:-220px;
     z-index:-1;
@@ -61,20 +61,20 @@ body::after{
     justify-content:space-between;
     align-items:center;
     padding:20px 35px;
-    background:#0e0e0e;
+    background:#0d0d0d;
     border:1px solid rgba(255,255,255,.06);
     border-radius:24px;
     margin-bottom:24px;
 }
 
 .logo{
-    font-size:30px;
+    font-size:32px;
     font-weight:900;
     letter-spacing:-2px;
 }
 
 .logo span{
-    color:#d4af37;
+    color:#ff8cc2;
 }
 
 .nav-links{
@@ -96,7 +96,7 @@ body::after{
 .hero{
     position:relative;
     overflow:hidden;
-    background:linear-gradient(145deg,#0b0b0b,#141414);
+    background:linear-gradient(145deg,#0b0b0b,#121212);
     border:1px solid rgba(255,255,255,.06);
     border-radius:38px;
     padding:95px 75px;
@@ -108,9 +108,9 @@ body::after{
     gap:10px;
     padding:12px 22px;
     border-radius:999px;
-    background:#d4af3712;
-    border:1px solid #d4af3730;
-    color:#e7c766;
+    background:#ff8cc212;
+    border:1px solid #ff8cc230;
+    color:#ffb1d5;
     font-size:14px;
     font-weight:700;
     margin-bottom:32px;
@@ -126,7 +126,7 @@ body::after{
 }
 
 .hero p{
-    max-width:860px;
+    max-width:850px;
     color:#9ca3af;
     font-size:21px;
     line-height:1.9;
@@ -148,13 +148,13 @@ body::after{
 }
 
 .btn-primary{
-    background:#d4af37;
+    background:#ff8cc2;
     color:#000;
 }
 
 .btn-primary:hover{
     transform:translateY(-5px);
-    box-shadow:0 15px 40px rgba(212,175,55,.25);
+    box-shadow:0 15px 40px rgba(255,140,194,.25);
 }
 
 .btn-secondary{
@@ -184,8 +184,8 @@ body::after{
 
 .feature:hover{
     transform:translateY(-7px);
-    border-color:#d4af3740;
-    box-shadow:0 15px 45px rgba(212,175,55,.08);
+    border-color:#ff8cc240;
+    box-shadow:0 15px 45px rgba(255,140,194,.08);
 }
 
 .feature-icon{
@@ -219,6 +219,48 @@ body::after{
     margin-bottom:38px;
 }
 
+.categories{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:22px;
+}
+
+.category{
+    position:relative;
+    overflow:hidden;
+    min-height:240px;
+    border-radius:28px;
+    padding:34px;
+    background:linear-gradient(145deg,#151515,#0d0d0d);
+    border:1px solid rgba(255,255,255,.06);
+    transition:.3s;
+}
+
+.category:hover{
+    transform:translateY(-7px);
+    border-color:#ff8cc240;
+}
+
+.category h3{
+    font-size:28px;
+    margin-bottom:14px;
+}
+
+.category p{
+    color:#a1a1aa;
+    line-height:1.8;
+}
+
+.glow{
+    position:absolute;
+    width:260px;
+    height:260px;
+    border-radius:50%;
+    background:#ff8cc210;
+    right:-90px;
+    bottom:-90px;
+}
+
 .products{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
@@ -235,8 +277,8 @@ body::after{
 
 .product:hover{
     transform:translateY(-8px);
-    border-color:#d4af3740;
-    box-shadow:0 18px 45px rgba(212,175,55,.08);
+    border-color:#ff8cc240;
+    box-shadow:0 18px 45px rgba(255,140,194,.08);
 }
 
 .product-image{
@@ -256,9 +298,9 @@ body::after{
     display:inline-block;
     padding:8px 14px;
     border-radius:999px;
-    background:#d4af3712;
-    border:1px solid #d4af3730;
-    color:#e7c766;
+    background:#ff8cc212;
+    border:1px solid #ff8cc230;
+    color:#ffb1d5;
     font-size:12px;
     font-weight:700;
     margin-bottom:16px;
@@ -289,48 +331,6 @@ body::after{
     margin-left:10px;
 }
 
-.categories{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:22px;
-}
-
-.category{
-    position:relative;
-    overflow:hidden;
-    min-height:240px;
-    border-radius:28px;
-    padding:34px;
-    background:linear-gradient(145deg,#151515,#0d0d0d);
-    border:1px solid rgba(255,255,255,.06);
-    transition:.3s;
-}
-
-.category:hover{
-    transform:translateY(-7px);
-    border-color:#d4af3740;
-}
-
-.category h3{
-    font-size:28px;
-    margin-bottom:14px;
-}
-
-.category p{
-    color:#a1a1aa;
-    line-height:1.8;
-}
-
-.glow{
-    position:absolute;
-    width:260px;
-    height:260px;
-    border-radius:50%;
-    background:#d4af3710;
-    right:-90px;
-    bottom:-90px;
-}
-
 .info-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
@@ -346,7 +346,7 @@ body::after{
 
 .info span{
     display:block;
-    color:#e7c766;
+    color:#ffb1d5;
     font-size:13px;
     text-transform:uppercase;
     margin-bottom:12px;
@@ -406,15 +406,15 @@ body::after{
     <nav class="nav">
 
         <div class="logo">
-            ADCOS<span>.</span>
+            SK<span>ELT</span>
         </div>
 
         <div class="nav-links">
-            <a href="#">Skincare</a>
-            <a href="#">Protetores</a>
-            <a href="#">Anti-Idade</a>
-            <a href="#">Dermocosméticos</a>
-            <a href="#">Lançamentos</a>
+            <a href="#">Self Tan</a>
+            <a href="#">Body Glow</a>
+            <a href="#">Perfumes</a>
+            <a href="#">Body Care</a>
+            <a href="#">Best Sellers</a>
         </div>
 
     </nav>
@@ -422,29 +422,29 @@ body::after{
     <section class="hero">
 
         <div class="badge">
-            ● DERMOCOSMÉTICOS PREMIUM • CIÊNCIA • PERFORMANCE
+            ● BEAUTY • GLOW • SELF CARE • PREMIUM EXPERIENCE
         </div>
 
         <h1>
-            SKINCARE<br>
-            PREMIUM PARA<br>
-            RESULTADOS REAIS.
+            GLOW NATURAL.<br>
+            PELE RADIANTE.<br>
+            BEAUTY PREMIUM.
         </h1>
 
         <p>
-            Dermocosméticos desenvolvidos com alta tecnologia para cuidados faciais,
-            proteção solar, rejuvenescimento e tratamento avançado da pele.
-            Fórmulas premium criadas para performance clínica e rotina diária.
+            Produtos desenvolvidos para elevar sua rotina de autocuidado com bronzeamento,
+            hidratação, fragrâncias e body glow premium. Fórmulas modernas, acabamento
+            sofisticado e experiência luxuosa para todos os dias.
         </p>
 
         <div class="hero-buttons">
 
-            <a href="https://www.lojaadcos.com.br/" target="_blank" class="btn btn-primary">
+            <a href="https://www.skelt.com.br/" target="_blank" class="btn btn-primary">
                 ACESSAR LOJA
             </a>
 
-            <a href="https://www.lojaadcos.com.br/protetor-solar" target="_blank" class="btn btn-secondary">
-                VER PROTETORES
+            <a href="https://www.skelt.com.br/collections/mais-vendidos" target="_blank" class="btn btn-secondary">
+                MAIS VENDIDOS
             </a>
 
         </div>
@@ -453,48 +453,48 @@ body::after{
 
             <div class="feature">
 
-                <div class="feature-icon">☀️</div>
-
-                <h3>Proteção Solar</h3>
-
-                <p>
-                    Protetores solares com alta performance, toque seco e proteção diária.
-                </p>
-
-            </div>
-
-            <div class="feature">
-
                 <div class="feature-icon">✨</div>
 
-                <h3>Anti-Idade</h3>
+                <h3>Body Glow</h3>
 
                 <p>
-                    Séruns, ácidos e ativos inteligentes para firmeza e rejuvenescimento.
+                    Iluminadores corporais premium para brilho sofisticado e acabamento impecável.
                 </p>
 
             </div>
 
             <div class="feature">
 
-                <div class="feature-icon">💎</div>
+                <div class="feature-icon">☀️</div>
 
-                <h3>Skincare Premium</h3>
+                <h3>Self Tan</h3>
 
                 <p>
-                    Fórmulas avançadas para hidratação, luminosidade e uniformização da pele.
+                    Bronzeado natural sem sol com fórmulas modernas e aplicação uniforme.
                 </p>
 
             </div>
 
             <div class="feature">
 
-                <div class="feature-icon">🧬</div>
+                <div class="feature-icon">🌸</div>
 
-                <h3>Tecnologia Dermatológica</h3>
+                <h3>Fragrâncias</h3>
 
                 <p>
-                    Produtos desenvolvidos com inovação científica e eficácia comprovada.
+                    Perfumes corporais sofisticados para elevar sua presença e autoestima.
+                </p>
+
+            </div>
+
+            <div class="feature">
+
+                <div class="feature-icon">💖</div>
+
+                <h3>Skincare Body</h3>
+
+                <p>
+                    Hidratação intensa e cuidado corporal para pele luminosa diariamente.
                 </p>
 
             </div>
@@ -512,45 +512,49 @@ body::after{
         <div class="categories">
 
             <div class="category">
+
                 <div class="glow"></div>
 
-                <h3>☀️ Protetor Solar</h3>
+                <h3>☀️ Self Tan</h3>
 
                 <p>
-                    Alta proteção UVA/UVB com acabamento sofisticado e confortável.
+                    Bronzeadores premium com efeito natural e acabamento uniforme.
                 </p>
 
             </div>
 
             <div class="category">
+
                 <div class="glow"></div>
 
-                <h3>✨ Anti-Idade</h3>
+                <h3>✨ Body Glow</h3>
 
                 <p>
-                    Ativos inteligentes para combater sinais de envelhecimento.
+                    Produtos iluminadores para brilho intenso e sofisticado.
                 </p>
 
             </div>
 
             <div class="category">
+
+                <div class="glow"></div>
+
+                <h3>🌸 Perfumes</h3>
+
+                <p>
+                    Fragrâncias femininas modernas para uma presença marcante.
+                </p>
+
+            </div>
+
+            <div class="category">
+
                 <div class="glow"></div>
 
                 <h3>💧 Hidratação</h3>
 
                 <p>
-                    Produtos desenvolvidos para restaurar equilíbrio e luminosidade.
-                </p>
-
-            </div>
-
-            <div class="category">
-                <div class="glow"></div>
-
-                <h3>🧴 Limpeza Facial</h3>
-
-                <p>
-                    Rotina de limpeza premium para todos os tipos de pele.
+                    Cremes e body care para pele sedosa, hidratada e luminosa.
                 </p>
 
             </div>
@@ -562,43 +566,10 @@ body::after{
     <section class="section">
 
         <h2 class="section-title">
-            MAIS VENDIDOS
+            BEST SELLERS
         </h2>
 
         <div class="products">
-
-            <div class="product">
-
-                <div class="product-image">
-                    ☀️
-                </div>
-
-                <div class="product-content">
-
-                    <div class="tag">
-                        BEST SELLER
-                    </div>
-
-                    <h3>
-                        Protetor Solar Fluid FPS 70
-                    </h3>
-
-                    <p>
-                        Alta proteção diária com textura leve e acabamento invisível.
-                    </p>
-
-                    <div class="price">
-                        R$129,90
-                        <span class="old-price">R$159,90</span>
-                    </div>
-
-                    <a href="https://www.lojaadcos.com.br/" target="_blank" class="btn btn-primary">
-                        VER PRODUTO
-                    </a>
-
-                </div>
-
-            </div>
 
             <div class="product">
 
@@ -609,23 +580,23 @@ body::after{
                 <div class="product-content">
 
                     <div class="tag">
-                        ANTI-IDADE
+                        BEST SELLER
                     </div>
 
                     <h3>
-                        Sérum Rejuvenescedor Intensivo
+                        Body Glow Iluminador Corporal
                     </h3>
 
                     <p>
-                        Tecnologia avançada para firmeza, luminosidade e renovação facial.
+                        Glow sofisticado para pele iluminada instantaneamente.
                     </p>
 
                     <div class="price">
-                        R$219,90
-                        <span class="old-price">R$279,90</span>
+                        R$89,90
+                        <span class="old-price">R$119,90</span>
                     </div>
 
-                    <a href="https://www.lojaadcos.com.br/" target="_blank" class="btn btn-primary">
+                    <a href="https://www.skelt.com.br/" target="_blank" class="btn btn-primary">
                         VER PRODUTO
                     </a>
 
@@ -636,29 +607,62 @@ body::after{
             <div class="product">
 
                 <div class="product-image">
-                    💧
+                    ☀️
                 </div>
 
                 <div class="product-content">
 
                     <div class="tag">
-                        HIDRATAÇÃO PREMIUM
+                        SELF TAN
                     </div>
 
                     <h3>
-                        Creme Facial Ultra Hidratante
+                        Mousse Autobronzeador Premium
                     </h3>
 
                     <p>
-                        Nutrição intensa com toque sofisticado e absorção rápida.
+                        Bronzeado natural sem manchas com textura leve e secagem rápida.
                     </p>
 
                     <div class="price">
-                        R$189,90
-                        <span class="old-price">R$239,90</span>
+                        R$99,90
+                        <span class="old-price">R$139,90</span>
                     </div>
 
-                    <a href="https://www.lojaadcos.com.br/" target="_blank" class="btn btn-primary">
+                    <a href="https://www.skelt.com.br/" target="_blank" class="btn btn-primary">
+                        VER PRODUTO
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="product">
+
+                <div class="product-image">
+                    🌸
+                </div>
+
+                <div class="product-content">
+
+                    <div class="tag">
+                        PERFUME BODY SPLASH
+                    </div>
+
+                    <h3>
+                        Body Splash Premium Feminino
+                    </h3>
+
+                    <p>
+                        Fragrância sofisticada com sensação fresca e elegante.
+                    </p>
+
+                    <div class="price">
+                        R$79,90
+                        <span class="old-price">R$109,90</span>
+                    </div>
+
+                    <a href="https://www.skelt.com.br/" target="_blank" class="btn btn-primary">
                         VER PRODUTO
                     </a>
 
@@ -680,10 +684,30 @@ body::after{
 
             <div class="info">
 
-                <span>Entrega Rápida</span>
+                <span>Glow Effect</span>
 
                 <h4>
-                    Envio para todo Brasil com rastreamento e segurança.
+                    Produtos desenvolvidos para destacar luminosidade natural da pele.
+                </h4>
+
+            </div>
+
+            <div class="info">
+
+                <span>Beauty Technology</span>
+
+                <h4>
+                    Fórmulas modernas com textura confortável e acabamento sofisticado.
+                </h4>
+
+            </div>
+
+            <div class="info">
+
+                <span>Entrega Nacional</span>
+
+                <h4>
+                    Envio rápido com rastreamento para todo Brasil.
                 </h4>
 
             </div>
@@ -693,47 +717,27 @@ body::after{
                 <span>Pagamento Seguro</span>
 
                 <h4>
-                    Ambiente protegido e tecnologia avançada para compras online.
+                    Checkout protegido e ambiente seguro para compras online.
                 </h4>
 
             </div>
 
             <div class="info">
 
-                <span>Dermocosméticos</span>
+                <span>Autocuidado</span>
 
                 <h4>
-                    Produtos desenvolvidos com alta performance dermatológica.
+                    Produtos criados para elevar autoestima e rotina de beleza.
                 </h4>
 
             </div>
 
             <div class="info">
 
-                <span>Atendimento</span>
+                <span>Skincare Body</span>
 
                 <h4>
-                    Suporte especializado para auxiliar sua rotina de skincare.
-                </h4>
-
-            </div>
-
-            <div class="info">
-
-                <span>Qualidade Premium</span>
-
-                <h4>
-                    Fórmulas sofisticadas com ativos modernos e tecnologia científica.
-                </h4>
-
-            </div>
-
-            <div class="info">
-
-                <span>Rotina Completa</span>
-
-                <h4>
-                    Limpeza, hidratação, proteção solar e tratamento facial avançado.
+                    Hidratação intensa, brilho corporal e acabamento premium.
                 </h4>
 
             </div>
@@ -744,9 +748,9 @@ body::after{
 
     <div class="footer">
 
-        © 2026 ADCOS Dermocosméticos — Todos os direitos reservados.<br><br>
+        © 2026 SKELT Beauty Essentials — Todos os direitos reservados.<br><br>
 
-        Desenvolvido para performance, branding premium e conversão.
+        Desenvolvido para branding premium, conversão e experiência visual moderna.
 
     </div>
 
